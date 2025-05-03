@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environment & build
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# VSCode or IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pip wheels (offline)
+packages/*.whl
+
+# Models (optional if too large or sensitive)
+*.pkl
+*.joblib
+*.h5
+models/
+
+# Git
+.git/
+
+# Railway or deployment config secrets
+secrets/
